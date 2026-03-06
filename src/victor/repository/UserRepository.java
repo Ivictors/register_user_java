@@ -27,7 +27,7 @@ public class UserRepository implements UserDAO {
             }
             System.out.println("Usuário salvo com sucesso!");
         } catch (SQLException e) {
-            System.err.println("Erro ao salvar: " + e.getMessage());
+            System.out.println("Erro ao salvar: " + e.getMessage());
         }
     }
 
